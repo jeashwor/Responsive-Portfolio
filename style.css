@@ -1,0 +1,180 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #d2f4ff;
+  color: #4b9cd3;
+  background-image: url(/assets/light-aluminum.png);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Beginning of Navbar Specific Styling */
+  /* Creates proper margin below NavBar */
+nav {
+  margin-bottom: 35px;
+}
+  /* Creates border below Navbar */
+#small {
+  border-width: 2px !important;
+  border-color: rgb(130, 137, 155) !important;
+}
+  /* Creates proper styling for Name area to match provided layouts */
+#myName {
+  background-color: #4b9cd3;
+  height: 90px;
+  font-size: xx-large;
+  padding: 20px 35px 20px 35px;
+  color: white;
+}
+  /* Matches font size of Links */
+#navbarNavAltMarkup {
+  font-size: larger;
+}
+  /* Adjust padding so that end of text is aligned with edge of container on right hand side in the 768 and 640 wide examples */
+#contact {
+  padding-right: 0px !important;
+}
+
+.container-md {
+  padding: 0px 30px 25px 30px !important;
+  margin-bottom: 30px;
+}
+
+/* Begins adjustments of Header areas to match layouts provided */
+  /* Changes all h1 to match font style provided*/
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
+  /* Adjust card header padding and styled bottom border */
+.cardHeader {
+  padding: 35px 0px 25px 0px !important;
+  margin: 0px 0px 20px 0px !important;
+  border-color: #4b9cd3 !important;
+  border-width: 3px !important;
+}
+
+.bioImg {
+  margin: 10px 15px 15px 0px;
+  width: 330px;
+}
+
+.bioText {
+  line-height: 2;
+}
+
+/* Styling specific to contact form */
+  /* Squared corners of inputs to match provided layout */
+.form-control {
+  border-radius: 0px;
+}
+  /* Modifies button styling */
+#contactSubmit {
+  border-radius: 0;
+  background-color: #4b9cd3;
+  width: 100px;
+  height: 38px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+  /* Sets height of message box to match provided layout */
+#exampleMessage {
+  height: 185px;
+}
+
+/* Beginning of Portfolio Page Styling */
+.imgMod {
+  padding: 25px 0px 25px 0px;
+}
+
+.picBox {
+  position: absolute;
+  width: 315px;
+  padding-top: 15px!important;
+  padding-bottom:15px!important;
+}
+
+.picCaptionMod {
+  background-color: #4b9cd3;
+  color: white;
+  font-size: large;
+  font-weight: normal;
+  margin: 0px;
+  bottom: 35px;
+}
+
+/* Beginning of Sticky Footer Styling */
+.footer {
+  flex-shrink: 0;
+  background-color: #4b9cd3;
+  color: #d2f4ff;
+  padding: 20px;
+  border-width: 8px !important;
+  border-color: rgb(130, 137, 155) !important;
+}
+
+#footerWidth {
+  margin: auto;
+  font-size: small;
+  padding-top: 10px;
+}
+
+/* Beginning of adjustments for larger screen size */
+@media (min-width: 770px) {
+  /* Creates proper left margin to match 980 layout on both Name and Lower Container */
+  #myName {
+    margin-left: 25px;
+  }
+  .container-md {
+    margin-left: 50px;
+    margin-bottom: ;
+    width: 600px;
+  }
+  /* Lines up right side of navigation with 980 example provided */
+  #contact {
+    padding-right: 16px !important;
+  }
+  .picBox {
+    width: 255px;
+  }
+  .bioImg {
+    width: 185px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Beginning of adjustments for smallest screen size */
+@media (max-width: 641px) {
+  /* Creates collapsing Navbar affect with Name moving to top on full row, and buttons moving below to center */
+  .navbar-brand {
+    text-align: center;
+    width: 640px;
+    margin: 0px;
+  }
+  #navbarNavAltMarkup {
+    margin: 20px auto 20px auto;
+  }
+  #small {
+    padding: 0px !important;
+    margin-bottom: 0px;
+  }
+  /* adjust container size and margins to match 640 layout */
+  .container-md {
+    margin: 20px;
+    width: 600px;
+  }
+  .imgMod {
+    width: 100%;
+  }
+  .picBox {
+    width: 540px;
+  }
+  .bioImg {
+    width: 100%;
+  }
+}
