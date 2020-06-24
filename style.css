@@ -12,17 +12,22 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container-md {
+  padding: 0px 30px 25px 30px !important;
+  margin-bottom: 30px;
+}
+
 /* Beginning of Navbar Specific Styling */
-  /* Creates proper margin below NavBar */
+/* Creates proper margin below NavBar */
 nav {
   margin-bottom: 35px;
 }
-  /* Creates border below Navbar */
+/* Creates border below Navbar */
 #small {
   border-width: 2px !important;
   border-color: rgb(130, 137, 155) !important;
 }
-  /* Creates proper styling for Name area to match provided layouts */
+/* Creates proper styling for Name area to match provided layouts */
 #myName {
   background-color: #4b9cd3;
   height: 90px;
@@ -30,28 +35,23 @@ nav {
   padding: 20px 35px 20px 35px;
   color: white;
 }
-  /* Matches font size of Links */
+/* Matches font size of Links */
 #navbarNavAltMarkup {
   font-size: larger;
 }
-  /* Adjust padding so that end of text is aligned with edge of container on right hand side in the 768 and 640 wide examples */
+/* Adjust padding so that end of text is aligned with edge of container on right hand side in the 768 and 640 wide examples */
 #contact {
   padding-right: 0px !important;
 }
 
-.container-md {
-  padding: 0px 30px 25px 30px !important;
-  margin-bottom: 30px;
-}
-
 /* Begins adjustments of Header areas to match layouts provided */
-  /* Changes all h1 to match font style provided*/
+/* Changes all h1 to match font style provided*/
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: xx-large;
 }
-  /* Adjust card header padding and styled bottom border */
+/* Adjust card header padding and styled bottom border */
 .cardHeader {
   padding: 35px 0px 25px 0px !important;
   margin: 0px 0px 20px 0px !important;
@@ -59,6 +59,7 @@ h1 {
   border-width: 3px !important;
 }
 
+/* Begin styling for About Me / Index.html */
 .bioImg {
   margin: 10px 15px 15px 0px;
   width: 330px;
@@ -69,11 +70,12 @@ h1 {
 }
 
 /* Styling specific to contact form */
-  /* Squared corners of inputs to match provided layout */
+/* Squared corners of inputs to match provided layout */
 .form-control {
   border-radius: 0px;
 }
-  /* Modifies button styling */
+
+/* Modifies button styling */
 #contactSubmit {
   border-radius: 0;
   background-color: #4b9cd3;
@@ -82,7 +84,8 @@ h1 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-  /* Sets height of message box to match provided layout */
+
+/* Sets height of message box to match provided layout */
 #exampleMessage {
   height: 185px;
 }
@@ -95,8 +98,8 @@ h1 {
 .picBox {
   position: absolute;
   width: 315px;
-  padding-top: 15px!important;
-  padding-bottom:15px!important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
 
 .picCaptionMod {
