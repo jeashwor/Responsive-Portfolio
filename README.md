@@ -30,7 +30,7 @@ Tasked with creating a responsive portfolio with multiple links.  Portfolio was 
 
 
 ---
-Using Bootstrap CSS along with addtional CSS styling I was able to achieve the following results at the indicated screen widths.   Overall I am very pleased with the representation of the original wireframe in regards to layout and sizing of elements. 
+Using Bootstrap CSS along with addtional CSS styling and media queries I was able to achieve the following results at the indicated screen widths.   Overall I am very pleased with the representation of the original wireframe in regards to layout and sizing of elements. 
 
 * <img src="./assets/980-index-JA.png" style="width: 25%;" />
 
